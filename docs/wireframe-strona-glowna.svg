@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="1180" viewBox="0 0 840 1180" font-family="Arial, sans-serif">
+  <style>
+    .box{fill:#f4f6f8;stroke:#9aa5ad;stroke-width:1.5}
+    .accent{fill:#dfe8ed;stroke:#6b7a84;stroke-width:1.5}
+    .lbl{fill:#5a6670;font-size:12px}
+    .ttl{fill:#2b333a;font-size:14px;font-weight:bold}
+    .ph{fill:#c3ccd2}
+    .line{stroke:#c3ccd2;stroke-width:8;stroke-linecap:round}
+    .btn{fill:#8fa6b2;stroke:#6b7a84;stroke-width:1.5}
+    .note{fill:#8a949c;font-size:11px;font-style:italic}
+  </style>
+
+  <rect x="0" y="0" width="840" height="1180" fill="#ffffff"/>
+  <text x="20" y="28" class="ttl" font-size="16">Wireframe — Strona główna · Auto Lśnienie</text>
+  <text x="20" y="46" class="note">Układ: nagłówek → hero (H1 + CTA) → 3 usługi → opinie → CTA → stopka</text>
+
+  <!-- HEADER -->
+  <rect x="20" y="60" width="800" height="70" class="box"/>
+  <rect x="40" y="82" width="150" height="26" class="ph"/>
+  <text x="46" y="100" class="lbl">Logo / Nazwa</text>
+  <rect x="470" y="88" width="60" height="14" class="ph"/>
+  <rect x="545" y="88" width="60" height="14" class="ph"/>
+  <rect x="620" y="88" width="60" height="14" class="ph"/>
+  <rect x="695" y="88" width="60" height="14" class="ph"/>
+  <rect x="770" y="88" width="30" height="14" class="ph"/>
+  <text x="470" y="120" class="lbl">Menu nawigacyjne (wg mapy strony)</text>
+
+  <!-- HERO -->
+  <rect x="20" y="145" width="800" height="230" class="accent"/>
+  <text x="40" y="180" class="ttl" font-size="13">SEKCJA HERO (Okładka / Grupa)</text>
+  <rect x="40" y="200" width="520" height="22" class="ph"/>
+  <rect x="40" y="230" width="430" height="22" class="ph"/>
+  <text x="40" y="272" class="lbl">H1 — „Twoje auto jak nowe — detailing w Koninie"</text>
+  <rect x="40" y="285" width="560" height="12" class="line"/>
+  <rect x="40" y="305" width="500" height="12" class="line"/>
+  <rect x="40" y="330" width="150" height="34" class="btn" rx="5"/>
+  <text x="62" y="352" fill="#2b333a" font-size="12">CTA „Umów wizytę"</text>
+
+  <!-- USŁUGI -->
+  <text x="20" y="412" class="ttl" font-size="13">SEKCJA USŁUGI — H2 „Co dla Ciebie zrobimy" (blok Kolumny)</text>
+  <g>
+    <rect x="20" y="425" width="255" height="180" class="box"/>
+    <rect x="40" y="445" width="150" height="16" class="ph"/>
+    <text x="40" y="478" class="lbl">H3 — Detailing lakieru</text>
+    <rect x="40" y="490" width="215" height="9" class="line"/>
+    <rect x="40" y="508" width="200" height="9" class="line"/>
+    <rect x="40" y="526" width="210" height="9" class="line"/>
+  </g>
+  <g>
+    <rect x="292" y="425" width="256" height="180" class="box"/>
+    <rect x="312" y="445" width="150" height="16" class="ph"/>
+    <text x="312" y="478" class="lbl">H3 — Czyszczenie wnętrza</text>
+    <rect x="312" y="490" width="216" height="9" class="line"/>
+    <rect x="312" y="508" width="200" height="9" class="line"/>
+    <rect x="312" y="526" width="210" height="9" class="line"/>
+  </g>
+  <g>
+    <rect x="565" y="425" width="255" height="180" class="box"/>
+    <rect x="585" y="445" width="150" height="16" class="ph"/>
+    <text x="585" y="478" class="lbl">H3 — Powłoki ceramiczne</text>
+    <rect x="585" y="490" width="215" height="9" class="line"/>
+    <rect x="585" y="508" width="200" height="9" class="line"/>
+    <rect x="585" y="526" width="210" height="9" class="line"/>
+  </g>
+
+  <!-- OPINIE -->
+  <rect x="20" y="635" width="800" height="170" class="accent"/>
+  <text x="40" y="665" class="ttl" font-size="13">DOWÓD SPOŁECZNY — H2 „Opinie klientów" (blok Cytat)</text>
+  <rect x="40" y="685" width="10" height="80" class="btn"/>
+  <rect x="70" y="695" width="700" height="11" class="line"/>
+  <rect x="70" y="718" width="660" height="11" class="line"/>
+  <rect x="70" y="741" width="500" height="11" class="line"/>
+  <text x="70" y="785" class="lbl">— Marek, właściciel BMW z Konina</text>
+
+  <!-- CTA -->
+  <rect x="20" y="825" width="800" height="150" class="box"/>
+  <text x="40" y="855" class="ttl" font-size="13">SEKCJA CTA</text>
+  <rect x="220" y="875" width="400" height="20" class="ph"/>
+  <text x="300" y="920" class="lbl">H2 — „Gotowy, żeby Twoje auto zalśniło?"</text>
+  <rect x="345" y="930" width="150" height="34" class="btn" rx="5"/>
+  <text x="367" y="952" fill="#2b333a" font-size="12">CTA „Umów wizytę"</text>
+
+  <!-- FOOTER -->
+  <rect x="20" y="995" width="800" height="150" class="accent"/>
+  <text x="40" y="1025" class="ttl" font-size="13">STOPKA (część szablonu)</text>
+  <rect x="40" y="1045" width="600" height="11" class="line"/>
+  <text x="40" y="1082" class="lbl">Dane kontaktowe: adres · telefon · e-mail</text>
+  <rect x="40" y="1095" width="260" height="11" class="line"/>
+  <text x="40" y="1130" class="lbl">Link: Polityka prywatności · © 2026</text>
+</svg>

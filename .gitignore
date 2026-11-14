@@ -1,0 +1,6 @@
+﻿# generowane artefakty
+setup/go.html
+setup/playground_url.txt
+setup/wireframe.svg
+__pycache__/
+*.pyc
