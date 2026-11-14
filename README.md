@@ -104,7 +104,8 @@ cms-lab/
 │  ├─ build-site.php              ← builder treści (uruchamiany przez blueprint)
 │  └─ build_blueprint.py          ← składa blueprint.json z plików motywu + buildera
 └─ docs/
-   ├─ raport-dostepnosci.md       ← audyt WCAG 2.2 (kontrast, kryteria, poprawki)
+   ├─ raport-dostepnosci.pdf      ← audyt WCAG 2.2 w PDF (kontrast, kryteria, poprawki)
+   ├─ raport-dostepnosci.md       ← ten sam raport w Markdown
    ├─ licencje.md                 ← źródła i licencje materiałów
    ├─ obrona-pytania.md           ← odpowiedzi na pytania kontrolne L1–L3
    ├─ wireframe-strona-glowna.svg ← wireframe strony głównej
