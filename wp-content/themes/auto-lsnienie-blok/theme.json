@@ -1,0 +1,91 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 3,
+	"settings": {
+		"appearanceTools": true,
+		"useRootPaddingAwareAlignments": true,
+		"layout": { "contentSize": "740px", "wideSize": "1200px" },
+		"color": {
+			"defaultPalette": false,
+			"defaultGradients": false,
+			"custom": true,
+			"palette": [
+				{ "slug": "base", "color": "#ffffff", "name": "Tło" },
+				{ "slug": "contrast", "color": "#14181c", "name": "Tekst" },
+				{ "slug": "primary", "color": "#0b5d7a", "name": "Kolor marki" },
+				{ "slug": "accent", "color": "#a3320b", "name": "Akcent" },
+				{ "slug": "surface", "color": "#eef3f6", "name": "Sekcja" }
+			]
+		},
+		"typography": {
+			"fluid": true,
+			"defaultFontSizes": false,
+			"fontFamilies": [
+				{
+					"slug": "system",
+					"name": "Systemowy",
+					"fontFamily": "system-ui, -apple-system, \"Segoe UI\", Roboto, Arial, sans-serif"
+				}
+			],
+			"fontSizes": [
+				{ "slug": "small", "size": "0.9rem", "name": "Mały" },
+				{ "slug": "medium", "size": "1.125rem", "name": "Średni" },
+				{ "slug": "large", "size": "clamp(1.375rem, 1.2rem + 0.8vw, 1.75rem)", "name": "Duży" },
+				{ "slug": "x-large", "size": "clamp(2rem, 1.5rem + 2.5vw, 3.25rem)", "name": "Tytuł" }
+			]
+		},
+		"spacing": {
+			"units": ["px", "rem", "em", "%", "vw", "vh"],
+			"defaultSpacingSizes": false,
+			"spacingSizes": [
+				{ "slug": "40", "size": "1.5rem", "name": "Małe" },
+				{ "slug": "50", "size": "2.5rem", "name": "Średnie" },
+				{ "slug": "60", "size": "4rem", "name": "Duże" },
+				{ "slug": "80", "size": "6rem", "name": "Bardzo duże" }
+			]
+		}
+	},
+	"styles": {
+		"color": {
+			"background": "var(--wp--preset--color--base)",
+			"text": "var(--wp--preset--color--contrast)"
+		},
+		"spacing": {
+			"padding": { "left": "var:preset|spacing|40", "right": "var:preset|spacing|40" },
+			"blockGap": "1.25rem"
+		},
+		"typography": {
+			"fontFamily": "var(--wp--preset--font-family--system)",
+			"fontSize": "var(--wp--preset--font-size--medium)",
+			"lineHeight": "1.6"
+		},
+		"elements": {
+			"heading": {
+				"color": { "text": "var(--wp--preset--color--contrast)" },
+				"typography": { "lineHeight": "1.2", "fontWeight": "700" }
+			},
+			"h1": { "typography": { "fontSize": "var(--wp--preset--font-size--x-large)" } },
+			"h2": { "typography": { "fontSize": "var(--wp--preset--font-size--large)" } },
+			"link": {
+				"color": { "text": "var(--wp--preset--color--primary)" },
+				"typography": { "textDecoration": "underline" },
+				":hover": { "typography": { "textDecoration": "none" } }
+			},
+			"button": {
+				"color": {
+					"background": "var(--wp--preset--color--primary)",
+					"text": "var(--wp--preset--color--base)"
+				},
+				"border": { "radius": "6px" },
+				"spacing": { "padding": { "top": "0.75rem", "bottom": "0.75rem", "left": "1.25rem", "right": "1.25rem" } },
+				":hover": { "color": { "background": "var(--wp--preset--color--accent)", "text": "var(--wp--preset--color--base)" } },
+				":focus": { "color": { "background": "var(--wp--preset--color--accent)", "text": "var(--wp--preset--color--base)" } }
+			}
+		},
+		"css": ":where(a,button,input,select,textarea,summary):focus-visible{outline:3px solid var(--wp--preset--color--accent);outline-offset:3px} .wp-block-navigation-item__content{min-height:24px;padding-block:.4rem} .wp-block-button__link{min-height:44px;display:inline-flex;align-items:center} @media (prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:.01ms !important;transition-duration:.01ms !important;scroll-behavior:auto !important}} @media (forced-colors:active){.wp-block-button__link{border:2px solid ButtonText}}"
+	},
+	"templateParts": [
+		{ "name": "header", "title": "Nagłówek", "area": "header" },
+		{ "name": "footer", "title": "Stopka", "area": "footer" }
+	]
+}

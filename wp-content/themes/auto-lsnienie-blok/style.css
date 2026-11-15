@@ -1,0 +1,17 @@
+/*
+Theme Name: Auto Lśnienie Blok
+Theme URI: https://github.com/DevPatryk/cms-lab
+Author: Patryk Matuszak
+Author URI: https://github.com/DevPatryk
+Description: Motyw blokowy dla fikcyjnej firmy Auto Lśnienie – studio detailingu w Koninie (MP2, laboratorium CMS, CDV).
+Requires at least: 6.6
+Tested up to: 7.0
+Requires PHP: 7.4
+Version: 0.1.0
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: auto-lsnienie-blok
+Tags: block-patterns, full-site-editing, accessibility-ready
+*/
+
+/* Style wizualne są w theme.json – ten plik zawiera tylko nagłówek motywu. */
