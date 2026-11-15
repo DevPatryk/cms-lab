@@ -1,0 +1,67 @@
+/*
+Theme Name:   AL Child
+Template:     twentytwentyone
+Description:  Motyw potomny Twenty Twenty-One dla studia detailingu Auto Lśnienie (MP2, CMS lab, CDV).
+Author:       Patryk Matuszak
+Author URI:   https://github.com/DevPatryk
+Version:      1.0.0
+Requires PHP: 7.4
+License:      GNU General Public License v2 or later
+License URI:  https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain:  al-child
+*/
+
+/* Nadpisuję tylko to, co potrzebne – reszta zostaje z Twenty Twenty-One.
+   Kolory jak w MP1: granatowo-turkusowy kolor marki i białe tło. */
+:root {
+	--al-accent: #0b5d7a;
+	--al-akcent-cta: #a3320b;
+	--al-sekcja: #eef3f6;
+	--global--color-background: #ffffff;
+	--global--color-primary: #14181c;
+	--global--color-secondary: #14181c;
+}
+
+a {
+	color: var(--al-accent);
+}
+
+a:hover {
+	color: var(--al-akcent-cta);
+}
+
+/* Krój nagłówków: systemowy stos fontów (jak w MP1, bez Google Fonts – RODO).
+   Twenty Twenty-One ustawia krój i grubość przez zmienne CSS, więc nadpisuję zmienne. */
+:root {
+	--heading--font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+	--heading--font-weight: 700;
+	--heading--font-weight-page-title: 700;
+	--heading--font-weight-strong: 700;
+	--heading--letter-spacing-h1: -0.02em;
+}
+
+/* Szablon page-o-nas.php – widoczna klasa, żeby było widać, że działa */
+.al-o-nas .entry-header {
+	background: var(--al-sekcja);
+	padding: 2rem;
+	border-radius: 12px;
+	border-bottom: none;
+}
+
+.al-o-nas .al-lead {
+	font-size: 1.25rem;
+	margin-top: 0.5rem;
+}
+
+.al-dane-firmy {
+	margin-top: 2rem;
+}
+
+/* Notka dodawana filtrem the_content */
+.al-note {
+	margin-top: 2rem;
+	padding: 1rem 1.25rem;
+	background: var(--al-sekcja);
+	border-radius: 8px;
+	font-weight: 600;
+}
