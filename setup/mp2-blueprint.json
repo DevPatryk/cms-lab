@@ -1,0 +1,12 @@
+{
+  "$schema": "https://playground.wordpress.net/blueprint-schema.json",
+  "landingPage": "/",
+  "preferredVersions": { "php": "8.3", "wp": "latest" },
+  "steps": [
+    { "step": "login", "username": "admin" },
+    { "step": "setSiteLanguage", "language": "pl_PL" },
+    { "step": "installTheme", "themeData": { "resource": "wordpress.org/themes", "slug": "twentytwentyone" }, "options": { "activate": false } },
+    { "step": "runPHP", "code": "<?php require '/wordpress/mp2-setup/mp2-tresc.php';" },
+    { "step": "activateTheme", "themeFolderName": "auto-lsnienie-blok" }
+  ]
+}
