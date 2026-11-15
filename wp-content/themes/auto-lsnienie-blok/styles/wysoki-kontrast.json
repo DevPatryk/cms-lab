@@ -1,0 +1,22 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 3,
+	"title": "Wysoki kontrast",
+	"settings": {
+		"color": {
+			"palette": [
+				{ "slug": "base", "color": "#ffffff", "name": "Tło" },
+				{ "slug": "contrast", "color": "#000000", "name": "Tekst" },
+				{ "slug": "primary", "color": "#003a52", "name": "Kolor marki" },
+				{ "slug": "accent", "color": "#7a1f00", "name": "Akcent" },
+				{ "slug": "surface", "color": "#ffffff", "name": "Sekcja" }
+			]
+		}
+	},
+	"styles": {
+		"elements": {
+			"link": { "typography": { "fontWeight": "700" } },
+			"button": { "border": { "width": "2px", "style": "solid", "color": "var(--wp--preset--color--contrast)" } }
+		}
+	}
+}
