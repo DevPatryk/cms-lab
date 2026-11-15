@@ -1,0 +1,16 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "al-child/info-firmy",
+	"title": "Informacja o firmie",
+	"category": "widgets",
+	"icon": "building",
+	"description": "Dynamiczny blok z nazwą i telefonem firmy.",
+	"textdomain": "al-child",
+	"attributes": {
+		"pokazTelefon": { "type": "boolean", "default": true }
+	},
+	"supports": { "html": false, "color": { "background": true, "text": true } },
+	"editorScript": "file:./index.js",
+	"render": "file:./render.php"
+}
